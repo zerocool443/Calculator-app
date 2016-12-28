@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CASIO CALCULATOR</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+	
+	function disp(n)
+	{
+		calcform.txt.value+=n;
+	}
+</script>
+</head>
+<body>
+<div class="main">
+<div class="calculator">
+	<h2>Casio 215</h2>
+
+	<form name="calcform">
+		<input class="expression" name="txt"> <br>
+
+		<input type="button" class="btnbox1" name="addbtn" value=+ onclick="disp(addbtn.value)">
+		<input type="button" class="btnbox2" name="btn1" value=1 onclick="disp(btn1.value)">
+		<input type="button" class="btnbox2" name="btn2" value=2 onclick="disp(btn2.value)">
+		<input type="button" class="btnbox2" name="btn3" value=3 onclick="disp(btn3.value)"> <br>
+
+		<input type="button" class="btnbox1" name="subbtn" value=- onclick="disp(subbtn.value)">
+		<input type="button" class="btnbox2" name="btn4" value=4 onclick="disp(btn4.value)">
+		<input type="button" class="btnbox2" name="btn5" value=5 onclick="disp(btn5.value)">
+		<input type="button" class="btnbox2" name="btn6" value=6 onclick="disp(btn6.value)"> <br>
+
+		<input type="button" class="btnbox1" name="mulbtn" value=* onclick="disp(mulbtn.value)">
+		<input type="button" class="btnbox2" name="btn7" value=7 onclick="disp(btn7.value)">
+		<input type="button" class="btnbox2" name="btn8" value=8 onclick="disp(btn8.value)">
+		<input type="button" class="btnbox2" name="btn9" value=9 onclick="disp(btn9.value)"> <br>
+
+		<input type="button" class="btnbox1" name="divbtn" value=/ onclick="disp(divbtn.value)">
+		<input type="button" class="btnbox3" name="clearbtn" value=clear>
+		<input type="button" class="btnbox2" name="btn0" value=0>
+		<input type="button" class="btnbox4" name="equals" value== onclick="txt.value=eval(txt.value)"> <br>
+
+
+	</form>
+</div>
+
+</div>
+
+</body>
+</html>

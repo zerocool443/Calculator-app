@@ -1,0 +1,101 @@
+html {
+
+	background-color: grey;
+	height: 600px;
+	widows: 1200px;
+
+}	
+
+.main {
+
+	margin-top: 100px;
+	margin-left: 350px;
+	height: 550px;
+	width: 600px;
+	background-color: lightgrey;
+	border-radius: 35px;
+  	box-shadow:
+    inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+}
+
+
+.expression {
+	background-color: black;
+	height: 25px;
+	width: 570px;
+	margin: 20px;
+	color: orange;
+	text-align: right;
+	font-size: 25px;
+}
+h2 {
+	text-align: center;
+	padding: 10px;
+
+}
+
+.btnbox1{
+	height: 50px;
+	width:50px;
+	background-color: #98DEF5;
+	margin: 25px;
+	box-shadow:
+    inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+}
+
+
+
+.btnbox2{
+	height: 50px;
+	width:50px;
+	background-color: #1086AD;
+	margin-left: 100px;
+	box-shadow:
+    inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+}
+
+
+
+
+.btnbox3{
+	height: 50px;
+	width:50px;
+	background-color: #7DF279;
+	margin-left: 100px;
+	box-shadow:
+    inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+	}
+
+
+
+.btnbox4{
+	height:50px;
+	width:50px;
+	background-color: #ED8B1A;
+	margin-left: 100px;
+	box-shadow:
+    inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+}
+
+
+

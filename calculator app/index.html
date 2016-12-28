@@ -9,6 +9,11 @@
 	{
 		calcform.txt.value+=n;
 	}
+
+	function clearfield() {
+
+     document.getElementById("101").value = "";
+}
 </script>
 </head>
 <body>
@@ -17,7 +22,7 @@
 	<h2>Casio 215</h2>
 
 	<form name="calcform">
-		<input class="expression" name="txt"> <br>
+		<input class="expression" id="101" name="txt"> <br>
 
 		<input type="button" class="btnbox1" name="addbtn" value=+ onclick="disp(addbtn.value)">
 		<input type="button" class="btnbox2" name="btn1" value=1 onclick="disp(btn1.value)">
@@ -35,7 +40,7 @@
 		<input type="button" class="btnbox2" name="btn9" value=9 onclick="disp(btn9.value)"> <br>
 
 		<input type="button" class="btnbox1" name="divbtn" value=/ onclick="disp(divbtn.value)">
-		<input type="button" class="btnbox3" name="clearbtn" value=clear>
+		<input type="button" class="btnbox3" name="clearbtn" value=clear onclick="clearfield()">
 		<input type="button" class="btnbox2" name="btn0" value=0>
 		<input type="button" class="btnbox4" name="equals" value== onclick="txt.value=eval(txt.value)"> <br>
 
